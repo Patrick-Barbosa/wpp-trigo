@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from time import sleep
 
-def send_whatsapp_template(phone, name, token, number_id, template_name="pesquisa_franqueado"):
+def send_whatsapp_template(phone, name, token, number_id, template_name="pesquisa_franqueados_nova_area "):
     """Send WhatsApp template message with dynamic parameters"""
     url = f"https://graph.facebook.com/v22.0/{number_id}/messages"
     
