@@ -23,6 +23,7 @@ def send_whatsapp_template(phone, name, token, number_id, template_name="pesquis
                 "type": "body",
                 "parameters": [{
                     "type": "text",
+                    "parameter_name": "nome", 
                     "text": name  # Using the name from Excel as parameter
                 }]
             }]
